@@ -4900,17 +4900,17 @@ body.menu-is-open {
         padding-right: var(--gutter);
     }
 }
-@top::-webkit-scrollbar {
+#intro::-webkit-scrollbar {
   width: 10px;
 }
 
-@top::-webkit-scrollbar-track {
+#intro::-webkit-scrollbar-track {
   -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
   background-color: #f9f9fd;
   border-radius: 10px;
 }
 
-@top::-webkit-scrollbar-thumb {
+#intro::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background: linear-gradient(180deg, #00c6fb, #005bea);
 }
